@@ -1,0 +1,17 @@
+INsp3ct0r writeup
+
+author: ZARATEC/DANNY
+
+Description:  Kishor Balan tipped us off that the following code may
+need inspection: https://jupiter.challenges.picoctf.org/problem/44924/ (link) 
+or http://jupiter.challenges.picoctf.org:44924
+
+Process:
+
+Loading the page, I hit the F12 key to bring up the site explorer. 
+
+The keys can be found in 3 files as comments
+
+Looking at the page index, I see the first part (of 3) of the key picoCTF{tru3_d3
+Part 2 is found in the css code: t3ct1ve_0r_ju5t
+The third piece is in  the javascript file:  _lucky?f10be399}
